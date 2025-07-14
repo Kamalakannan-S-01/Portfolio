@@ -1,39 +1,82 @@
-# 💼 Kamalakannan S - Portfolio Website
-
-This is my personal portfolio website built using **HTML**, **CSS**, and **JavaScript**. It showcases my background, skills, certifications, and projects in a clean, responsive design.
-
----
-
-## 🔗 Live Site
-
- https://kamalakannan-portfolio.netlify.app
-
----
-
-## 🧰 Tech Stack
-
-- HTML5  
-- CSS3  
-- JavaScript
-
----
-
-## 📌 Features
-
-- Clean and professional layout  
-- Sections: About, Skills, Projects, Certifications, Contact  
-- Fully responsive for mobile and desktop  
-- External links to GitHub and LinkedIn  
-- Resume download available
-
-
----
-
-## 📞 Contact Me
-
-- Email: kamalakannan.srinivasalu@gmail.com
-- LinkedIn: https://linkedin.com/in/k24r03
-
----
-
-> Designed and developed with passion to showcase my skills and growth as a developer.
+<!DOCTYPE html>
+<head>
+  </head>
+<body>
+  <header>
+    <h1>Kamalakannan S</h1>
+    <p>Front-End Developer</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>Career Objective</h2>
+    <p>
+      Enthusiastic and detail-oriented front-end developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Angular.js. Eager to contribute to dynamic teams and grow as a full-stack developer. Passionate about clean UI/UX and building responsive, accessible, and optimized web applications.
+    </p>
+  </section>
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="info-grid">
+      <div>
+        <h4>Languages</h4>
+        <p>HTML5, CSS3, JavaScript</p>
+      </div>
+      <div>
+        <h4>Frameworks</h4>
+        <p>Angular.js</p>
+      </div>
+      <div>
+        <h4>Tools & VCS</h4>
+        <p>VS Code</p>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>1. Portfolio Website</h3>
+      <p>Built using HTML, CSS, and JavaScript. <br>
+	  A personal portfolio showcasing projects and resume.</p>
+      <a href="https://github.com/Kamalakannan-S-01/Portfolio" target="_blank">View Code</a>
+    </div>
+    <div class="project">       
+  <h3>2. Digital Clock</h3>       
+  <p>
+    Tech: HTML, CSS, JavaScript<br>
+    Real-time clock with hour, minute, second, and AM/PM<br>
+    Features: 12-hour toggle
+  </p> 		 
+  <a href="https://github.com/Kamalakannan-S-01/Digital-Clock" target="_blank">View Code</a>     
+</div>
+  </section>
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certification">
+      <p><strong>.NET Full Stack</strong> – Accord Info Matrix</p>
+    </div>
+    <div class="certification">
+      <p><strong>Advanced Python</strong> – Apollo Institution</p>
+    </div>
+  </section>
+  <section id="resume">
+  <h2>Resume</h2>
+  <p>You can view or download my resume below:</p>
+  <a class="button" href="https://raw.githubusercontent.com/Kamalakannan-S-01/Resume/main/Kamalakannan_Resume.pdf" download>Download Resume (PDF)</a>
+</section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="Kamalakannan.srinivasalu@gmail.com">Kamalakannan.srinivasalu@gmail.com</a></p>
+    <p>Phone: +91 9345583822</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/k24r03" target="_blank">linkedin.com/in/k24r03</a></p>
+    <p>GitHub: <a href="https://github.com/Kamalakannan-S-01" target="_blank">github.com/Kamalakannan-S-01</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Kamalakannan S. All rights reserved.</p>
+  </footer>
+</body>
+</html>
